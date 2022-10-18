@@ -9,7 +9,7 @@ Repositorio do semestre
 ### H3
 
 **bold text**
-*italicized text*
+*italicized text*   
 > blockquote
 
 1. First item
