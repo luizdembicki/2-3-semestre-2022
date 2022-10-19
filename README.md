@@ -88,3 +88,17 @@ And the next line.
 First line with the HTML tag after.<br>
 And the next line.
 
+## collapsible markdown?
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
+
