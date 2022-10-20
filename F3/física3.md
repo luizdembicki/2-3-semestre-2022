@@ -1,4 +1,4 @@
-# Aula 1 FísIca 3
+# Aula 1 Física 3
 
 >## Lei de Coulumb <br> $ F = \frac{1}{4 \pi \epsilon_0} \frac{|q_1| |q_2|}{r^2} $
 
