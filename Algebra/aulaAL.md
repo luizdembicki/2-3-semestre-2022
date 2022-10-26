@@ -17,11 +17,13 @@ tal que:
 5. $ \vec{0} \in V $
 6. $ u + v = v + u $
 7. $ u + \vec{0} = u$
-8. $ \forall u \exists u \space u + v = \vec{0} $
+8. $ \forall u \exists u \space : u + v = \vec{0} $
 9. $ u + (v + w)=(u + v) + w $
 ---
 Exercicío
-1. prova da associatividade da adição de vetores na interpretação $<\mathbb{R}²,\mathbb{R}, +, \cdot, (0,0)>$  
+1. Postulado 9) prova da associatividade da adição de vetores na interpretação $<\mathbb{R}²,\mathbb{R}, +, \cdot, (0,0)>$ 
+<br>
+Definindo que $u = (a,b);$
 ---
 
 

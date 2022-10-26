@@ -1,4 +1,4 @@
-# FEM Aula 1
+# FEN Aula 1
 
 email prof: alessandra.cristina@ufpr.br <br>
 alessandra.cristina@yahoo.com.br
@@ -70,17 +70,24 @@ $\delta = \frac{\rho}{\rho_{H_{2}O}} = 13,6  \to \rho = 13,6 \cdot 1000 \to \gam
 
 > 3. Um ojeto feito de aço maciço tem 500g de massa e 25cm³ de volume. Determine a densidade relativa do objeto e a massa específica do aço em g/cm³ e kg/cm³.
 <br>
+$\rho = \frac{500g}{25cm³} = 20000 kg/m^3$ <br>
+$\delta = \frac{\rho}{\rho_{H_{2}O}} = \frac{20000 kg/m^3}{1000\frac{kg}{m³}} = 20$ <br>
+$\rho = \frac{m}{V} = 500g/25cm³ = 20g/cm3 = 0,02 kg/cm³$
 
-
-> 4. Um reservatórop graduado contém 500mL de um líquido que pena 6N. Determine o peso específico e a massa específica do líquido.
+> 4. Um reservatório graduado contém 500mL de um líquido que pena 6N. Determine o peso específico e a massa específica do líquido.
 <br>
+$\gamma = \frac{G}{V} = \frac{m\cdot g}{V} = \rho \cdot g$ <br>
+$\to \gamma = \frac{6N}{500mL} = 12N/L = \rho \cdot g \to \rho \approx 1220 kg/m^3$
 
 
-> 5. Um cilindro tem 5cm² como área de base e 20cm de altura, sendo sua massa igual a 540g. esse cilindro é oco, tendo a parte oco central a forma de um  paralelepípedo de volume 64cm. Determine:
+> 5. Um cilindro tem 5cm² como área de base e 20cm de altura, sendo sua massa igual a 540g. esse cilindro é oco, tendo a parte oco central a forma de um  paralelepípedo de volume 64cm³. Determine:
 <br>
-a) a massa específica do cílindro; <br>
+a) a massa específica do cílindro;
+$\rho = \frac{m}{V} = \frac{540g}{5 \cdot 20 cm³} = 5,4/cm³$
+<br>
 b) a massa específica da substância de que o cílindro é feito. 
-
+<br>
+$\rho = \frac{m}{V} = \frac{540g}{5 \cdot 20 cm³ - 64cm³} = 15g/cm³$
 ---
 
 ## Lei de viscosidade de Newton
