@@ -30,3 +30,6 @@ $\epsilon_0 =  8.85 × 10^{−12} C^2/N · m^2 $
 > ## Dipolo elétrico 
 
 # Aula 3~4 Campo elétrico de disco e etc
+ 
+## Exercícios 
+24,25,27,29,32,33,36,37,40,52,56
