@@ -1,0 +1,3 @@
+[submodule "Integr"]
+	path = Integr
+	url = git@github.com:luizdembicki/Integr.git
