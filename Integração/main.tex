@@ -1,0 +1,100 @@
+\documentclass[12pt, a4paper, twoside, chapter=TITLE, subsection=TITLE, section=TITLE, subsubsection=TITLE, subsubsubsection=TITLE, english, german, brazil]{abntex2}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian,hyperpageref]{backref}
+\usepackage{pacotes}
+
+
+\titulo{Processo de produção de metanol}
+\tituloestrangeiro{--texto do título estrangeiro--}
+\autor{
+    Angelo \\
+    Isabelli \\
+    Luiz \\
+}
+\orientador{--Professor--}
+\coorientador{--Monitor--}
+\data{2022}
+\instituicao{
+    Universidade Federal do Paraná (UFPR) \par
+    Departamento de Engenharia Química \par
+    Graduação em Engenharia Química
+}
+\tipotrabalho{Trabalho Acadêmico}
+\local{Curitiba, PR}
+\preambulo{Trabalho acadêmico para a disciplina de Integração de Processos 1}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+    pdftitle={\@title},
+    pdfauthor={\@author},
+    pdfsubject={\imprimirpreambulo},
+    pdfkeywords={PALAVRAS}{CHAVE}{EM}{PORTUGUES},
+    pdfcreator={LaTeX with abnTeX2},
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+    }
+\makeatother
+\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+
+\begin{document}
+\pretextual 
+\imprimircapa
+\imprimirfolhaderosto[]* % talvez dê merda na numeração das páginas
+\makeatother\cleardoublepage
+
+
+\begin{resumo}[Resumo] 
+    ------- Resumo em português. -----  \\
+    \vspace{\onelineskip}
+    \noindent
+    \textbf{Palavras-chave}: latex. abntex. editoração de texto.
+\end{resumo}
+
+\begin{resumo}[Abstract]
+    \begin{otherlanguage*}{english}
+        ------ abstract. ---- \\
+        \vspace{\onelineskip}
+        \noindent
+        \textbf{Keywords}: latex. abntex. publication de textes.
+    \end{otherlanguage*}
+\end{resumo}
+
+
+% \pdfbookmark[0]{\listfigurename}{lof}
+% \listoffigures*
+% \cleardoublepage
+
+
+% \pdfbookmark[0]{\listtablename}{lot}
+% \listoftables*
+% \cleardoublepage
+
+
+% \begin{siglas}
+%   \item[sigla] significado da sigla;
+% \end{siglas}
+
+
+% \begin{simbolos}
+%     \item[simbolo] descrição;
+% \end{simbolos}
+
+
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+
+
+\textual % a partir daqui são os elementos textuais.
+% \include{XXX} % adicionar os .tex da pasta inputs
+
+\postextual % a partir daqui são os elementos pós-textuais.
+\bibliography{ref} % O alerta amarelo ("Empty `thebibliography' environment on input line 8.") é porque não há citações ainda
+% \chapter{APÊNDICE}
+% \chapter{anexo}
+\end{document}
