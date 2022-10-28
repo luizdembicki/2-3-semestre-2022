@@ -8,7 +8,7 @@ elon lages lima
 
 --- 
 
->## Definição Espaço vetorial <ins> real </ins>  é uma n-upla ordenada[^1] $<V, \mathbb{R}, +, \cdot, \vec{0}>$ 
+>## Definição Espaço vetorial <ins> real </ins>  é uma n-upla ordenada¹ $<V, \mathbb{R}, +, \cdot, \vec{0}>$ 
 tal que:
 1. $ V \neq \varnothing $
 2. $\mathbb{R}$ é o corpo dos reais
@@ -19,9 +19,14 @@ tal que:
 7. $ u + \vec{0} = u$
 8. $ \forall u \exists u \space : u + v = \vec{0} $
 9. $ u + (v + w)=(u + v) + w $
+10. $ (\alpha + \beta)u = \alpha u + \beta u$
+11. $ \alpha(u + v) = \alpha u + \alpha v $
+12. $ (\alpha \beta)u = \alpha(\beta u)$
+13. $1 \cdot v = v$
+
 ---
-Exercicío
-1. Postulado 9) prova da associatividade da adição de vetores na interpretação $<\mathbb{R}²,\mathbb{R}, +, \cdot, (0,0)>$ 
+Exercicíos
+1. Postulado 9) prova da associatividade da adição de vetores na interpretação $<\mathbb{R}²,\mathbb{R}, +, \cdot, (0,0)>$²
 <br>
 Definindo que $u = (a,b);$
 ---
@@ -29,4 +34,5 @@ Definindo que $u = (a,b);$
 
 
 
-[^1]: Definição recursiva a partir de pares não ordenados &rarr; pares ordenados &rarr; triplas ordenadas etc.
+¹: Definição recursiva a partir de pares não ordenados &rarr; pares ordenados &rarr; triplas ordenadas etc. <br>
+²: $\mathbb{R}²$ Usual

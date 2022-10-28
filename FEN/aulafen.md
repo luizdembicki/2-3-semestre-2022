@@ -127,3 +127,53 @@ $ A = 2\pi rh ≃ 0,063 m^2$ <br>
 - pseudoplástico: diminuição de $\mu$ com aumento da tensão de cisalhamento
 - fluido de Bingham: tem que vencer uma tensão de cisalhamento para comportarsse como newtoniano
 - fluido newtoniano: constante
+
+# Aula 3 
+## Lei de Stevin
+> $\Delta P = \rho g \Delta h  $ <br>
+$\rho g = \gamma$
+
+# Aula 4 
+## P/ mesmo fluído e profundidade 
+> $P_1 = P_2$
+
+## Exercícios
+>### 1. Dada a pressão no ponto A, Scomo sendo igual a S8500 kgf/m², pede se a pressão  nos pontos B, C, D e E. Dados $\gamma_{H_2O} = 1000kgf/m³$  e $\gamma_{Hg} = 13500kgf/m³$> Adotar o fundo como refêrencia.
+$h_A = 2m_{H_2O}+1.5m_{H_g},h_B = 0.5m_{H_2O}+1.5m_{H_g},h_C = 4m_{H_2O}+1.5m_{H_g},h_D = 0.4m_{H_g},h_E = 1.5m_{H_g}, $
+<br>
+$ P = \gamma \Delta h  + P_0$ <br>
+$ P_B = \gamma_{H_2O} \cdot (3.5m-2m) + P_A$<br>
+$ P_C = \gamma_{H_2O} \cdot (2m-4m) + P_A$<br>
+$ P_D = \gamma_{Hg} \cdot (m-2m) + P_E$<br>
+$ P_E = \gamma_{H_2O} \cdot (m-4m) + P_B$<br>
+
+>### 2. A metade inferior de um cilindro de 10m de altura é preenchida com água ($\rho = 1000 kg/m³$) e a metade superior com óleo ($\delta = 0.85$). Determinar a diferença de pressão entre as partes.
+
+$\Delta P = \rho_{H_2O} g h + \rho_{óleo} g h$ <br>
+$\delta_r = \frac{\rho_{óleo}}{\rho_{H_2O}} $ <br>
+$\to \Delta P = 90650Pa$
+
+### 3. Um container contém diferentes fluídos: óleo, água e glicerina, determine a pressão A considerando $P_{atm}=0$ 
+óleo $h_1 = 0,7m$ $\delta_r = 0,90$  ^, 
+água $h_2 = 0,3m$ $\rho = 1000kg/m³$ ^,
+glicerina $h_3 = 0,2m$ $\delta_r = 1,26 $ <br>
+$\Delta P = \rho_{H_2O} g h + \rho_{óleo} g h + \rho_{glicerina} g h$ <br>
+$\to \Delta P= 11583,6 Pa$
+
+## Lei de Pascal
+> Um fluído cem repouso com uma superficie livre à atmosfera ao ser aplicada uma força através de um êmbolo a pressão deverá ser transmitida integralmente a todos os pontos.
+$\to  \frac{F_1}{A_1}=\frac{F_2}{A_2}$
+
+## Exercício
+> ### 4. No elevador de carros em uma oficina, o diâmetro de ação 1 é 4cm e 2 é 20cm. <br>
+a) qual força que deve ser aplicada em 1 para elevar um carro de 10000N? <br>
+$\to  \frac{F_1}{\pi \cdot (2cm)²}=\frac{10000}{\pi(10cm)²}$<br>
+$\to F_1 = 400N$
+<br>
+b) Para o carro se elevear em 40 cm, qual deve ser o percurso do êmbolo em 1?<br>
+$V_1=V_2$ $\to A_1 \cdot h_1 = A_2 \cdot h_2$<br>
+$\to h_1= 10m$
+
+### 5. Um tubo de vidro é anexado ao um cano de água como mostra a fígura. Se a pressão da água na parte inferior do tubo for de 115kPa e pressão atmosferica de 92kPa, qual a altura que a água subira no tubo em metros? <br>
+   || <br>
+()-----) <-H2O <br>
