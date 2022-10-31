@@ -1,8 +1,8 @@
-# Aula 1 Física 3
+# Aula 1 Cap 21 Física 3
 
 >## Lei de Coulumb <br> $ F = \frac{1}{4 \pi \epsilon_0} \frac{|q_1| |q_2|}{r^2} $
 
-$\epsilon_0 =  8.85 × 10^{−12} C^2/N · m^2 $
+$\varepsilon_0 =  8.85 × 10^{−12} C^2/N · m^2 $
 ---
 
 <br>
@@ -15,7 +15,7 @@ $\epsilon_0 =  8.85 × 10^{−12} C^2/N · m^2 $
 ---
 >### 1 ![alt text](1.jpg)
 
-1. $ F = \frac{1}{4 \pi \epsilon_0} \frac{|q_1| |q_2|}{r^2} $
+1. $ F = \frac{1}{4 \pi \varepsilon_0} \frac{|q_1| |q_2|}{r^2} $
 
 
 ---
@@ -33,3 +33,10 @@ $\epsilon_0 =  8.85 × 10^{−12} C^2/N · m^2 $
  
 ## Exercícios 
 24,25,27,29,32,33,36,37,40,52,56
+# Aula 5 Cap 23 Lei de Gauss
+
+1. $|\vec{E} \propto \frac{número\space de \space linhas}{área}|$
+2. Fluxo $\Phi = \vec{V} \cdot \vec {A}$ ou $\Phi =| \vec{V}||\vec{A}| \cos{e}$
+> ##  $\Phi = \oint{\vec{E} \cdot d\vec{A}}$
+> ## Lei de Gauss $\varepsilon_0 \Phi = q_{enclosed} \to \varepsilon_0 \oint \vec{E} \cdot d \vec{A} = q_{enclosed}$ 
+### Conveniente então procurar superfície onde $ \vec{E} $ é constante 
