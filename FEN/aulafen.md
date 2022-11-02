@@ -177,3 +177,33 @@ $\to h_1= 10m$
 ### 5. Um tubo de vidro é anexado ao um cano de água como mostra a fígura. Se a pressão da água na parte inferior do tubo for de 115kPa e pressão atmosferica de 92kPa, qual a altura que a água subira no tubo em metros? <br>
    || <br>
 ()-----) <-H2O <br>
+
+# Aula 5 
+
+## 1. Um tanque pressurizado a ar, está localizado a 1400m, onde a $p_{atm}=85,6kPa$. Determine a pressão do ar no tanque da fígura a seguir. Considere: $\rho_{H_2O} = 1000kg/m³; \rho_{Hg} = 13600kg/m³;\rho_{óleo}=850kg/m³$
+<br>
+
+$ p_{ar} - p_{atm} = p{1,2,3} \to p_{ar} =  85,6kPa -\rho_{H_2O} g(0,1m) - \rho_{óleo} g (0,2m) + \rho_{Hg} g (0,35m) = 129,602 kPa$
+
+## 2. Um manômetro é usado para medir a pressão em um tanque. O fluído tem $\delta = 0,85$ e a altura da coluna é de 55cm. Se a $P_{atm} = 96kPa$ determine a pressão absoluta dentro do tanque.
+<br>
+
+$ \delta = 0,85 = \rho / 1000kg/m³ \to \rho = 850kg/m³ $ <br>
+$P_{abs} = P_{atm} + \rho \cdot g \cdot 0,55m = 100,5815 kPa$
+
+## 3. Determine a distância X na figura, considerando que o peso específico da água é 9800 N/m³ e do óleo é 7350 N/m³.
+<br>
+
+$P_{atm} - P_{atm} = - \rho_{H_2O} \cdot g \cdot 0,30m + \rho_{óleo} \cdot h \to \rho \cdot g = \gamma \to 0 = -9800 \cdot 0,3  +7350h \to h=0,4m$
+
+<br>
+
+## 4. O manômetro mostrado contém  2 líquidos, A($\delta_r = 0,88$) e B ($\delta_r = 2,95$). Calcule a deflexão h, quando a diferença de pressão for de 870Pa.
+<br>
+
+$ 870Pa = -880 \cdot g \cdot (d+h) + 880 \cdot g \cdot d - 2950 \cdot g \cdot h = -0,043m$
+
+## 5. A pressão sanguínea máxima na parte superior do braço de uma pessoa saudável é de cerca de 120 mmHg. Se o tubo vertical aberto para a atmosfera estiver conectado a veia do braço, determine até onde o sangue subirá no tubo($\rho_{sangue} = 1050kg/m³$) e considere $P_{atm} = 0$.
+<br>
+
+$P_{sangue} - P_{atm} = P_{manometrica sangue} $ 
