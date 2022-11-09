@@ -31,7 +31,7 @@ Exercicíos
 Definindo que $u = (a,b);$
 ---
 
-
+## Restrição = operação de subconjunto seguindo a definição do conjunto superior 
 
 
 ¹: Definição recursiva a partir de pares não ordenados &rarr; pares ordenados &rarr; triplas ordenadas etc. <br>
