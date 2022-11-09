@@ -207,3 +207,17 @@ $ 870Pa = -880 \cdot g \cdot (d+h) + 880 \cdot g \cdot d - 2950 \cdot g \cdot h 
 <br>
 
 $P_{sangue} - P_{atm} = P_{manometrica sangue} $ 
+
+# Aula 6 8/11
+
+## 1. Um campoo de velocidade é dado por (bidimensional, incompressível e permanente): $V(u, v) = (0,5 + 0,8x)\hat{\imath} + (1,5-0,8y)\hat{\jmath}$ <br> -Determine o ponto de estagnação para x e y, e qual a velocidade da partícula para (2,3):
+<br>
+
+$(0,0) = (0,5 + 0,8x , 1,5 - 0,8y) \to x= -0,625 ; y = 1,875$ <br>
+
+$x = 2;y = 3 = (0,5 + 0,8 \cdot 2)\hat{\imath} + (  1,5 - 0,8y \cdot 3)\hat{\jmath} \to 2,1\hat{\imath} - 0,9\hat{\jmath}$ <br>
+
+
+## Número de Reynolds  &rarr; acima de ~ 2100 é turbulento
+>## Eq Reynolds $ Re = \frac{\rho v D}{\mu} $ <br>
+## Parte de baixo fração viscosa 

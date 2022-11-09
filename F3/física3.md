@@ -40,3 +40,11 @@ $\varepsilon_0 =  8.85 × 10^{−12} C^2/N · m^2 $
 > ##  $\Phi = \oint{\vec{E} \cdot d\vec{A}}$
 > ## Lei de Gauss $\varepsilon_0 \Phi = q_{enclosed} \to \varepsilon_0 \oint \vec{E} \cdot d \vec{A} = q_{enclosed}$ 
 ### Conveniente então procurar superfície onde $ \vec{E} $ é constante 
+
+# Aula 07/11
+1. Lei de Gauss X Condutores
+2. Corpos com simetria esférica
+
+# Aula 9/11 Potencial elétrico cap 24
+
+## Lista 1, 4, 12, 64, 66, 67 
