@@ -30,6 +30,11 @@ Exercicíos
 <br>
 Definindo que $u = (a,b);$
 ---
+1) Provar que a associatividade da adição de vetores é teorema em R^2 usual. 
+
+2) Escolher um axioma qualquer de espaço vetorial real e provar que ele é teorema em P2 usual. 
+
+3) Provar que qualquer reta que passa pela origem de R^2 define subespaço de R^2 usual. 
 
 ## Restrição = operação de subconjunto seguindo a definição do conjunto superior 
 
