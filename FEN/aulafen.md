@@ -221,3 +221,10 @@ $x = 2;y = 3 = (0,5 + 0,8 \cdot 2)\hat{\imath} + (  1,5 - 0,8y \cdot 3)\hat{\jma
 ## Número de Reynolds  &rarr; acima de ~ 2100 é turbulento
 >## Eq Reynolds $ Re = \frac{\rho v D}{\mu} $ <br>
 ## Parte de baixo fração viscosa 
+
+
+# Aula 10/11 
+## EQ continuidade
+
+## 1. Considerar o sistema abaixo como: incompressível, unidimensional e permanente:
+
