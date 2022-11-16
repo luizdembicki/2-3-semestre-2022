@@ -14,9 +14,10 @@ n1n2 = 0.01
 
 // de
 n24h2o = 0.94
+n24ch3oh = 1 - n24h2o
 n22ch3oh = 0.999 
 n22h2o = 1 - n22ch3oh
-// c22 = (10000 / ch3oh ) / n22ch3oh // kmol 
+c22 = (10000 / ch3oh ) / n22ch3oh // kmol 
 
 
 // vs1
@@ -37,7 +38,7 @@ n16n2 = 0.000053
 
 // c6 = ((c3 * n3ch3oh * ch3oh) + (c3 * n3_H2O * h2o ) + (c3 * n3h2 * h2) + (c3 * n3n2 * n2) + (c3 * n3co2 * co2) + (c3 * n3co * co)) / ((n6ch3oh * ch3oh) + (n6h2o * h2o ) + (n6h2 * h2) + (n6n2 * n2)  + (n6co * co))
 
-
+/*
 // chutes
 c1 = rand()
 c9 = rand()
@@ -59,8 +60,23 @@ while c22 ~= (10000 / ch3oh ) / n22ch3oh // talvez colocar entre e adicionar uma
     // mudar c1
 end
 // verificar tudo com a vazão de N2
+*/
+c24 = rand()
+// Tentativa de trás para frente variando c24
+while c1 ~= (n10n2 * c10 + n15n2 * c15 + n19n2 * c19) / 0.01
+    for n1co = 0 : 0.95 // variando a proporção h2 + co da entrada  
+        n1h2 = 0.95 - n1co // restrição, reajustar como limite de loop talvez
+        for R = 0:1 // R = c11 / c9 reciclo
+            c21 = c22
+            c20 = c21 + c22
+            c16 = (2 * (n22ch3oh * c22) + (n24ch3oh * c24)) / n16ch3oh
+            (n13ch3oh * c13 * 0.995) = (2 * (n22ch3oh * c22) + (n24ch3oh * c24))
+            c13 =(n6ch3oh * c6 * 0.98) / n13ch3oh
+        end
+    end
+end
 
-// MASSA 
+/* MASSA 
 C22 = (c22 * n22ch3oh * ch3oh) + (c22 * n22h2o * h2o )
 C19 = C21 + C22 // vale para molar
 C1 = C10 + C15 + C19 + C22 + C24 // BM Geral em MASSA 
@@ -72,3 +88,4 @@ c6 = (n3co2 * c3 + n3co * c3) / n6ch3oh // ch3oh
 
 // (n1co2 * c1 - ( n10h2o * c10 + n15h2o * c15 + n22h2o * c22)) / n24h2o = c24
 // n15h2o * c15 = (n22h2o * c22 + n24h2o * c24)(1 - (1 / 0.98))
+*/
