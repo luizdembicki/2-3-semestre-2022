@@ -42,7 +42,7 @@ c1 = 1000
 n1co2 = 0.04
 n1n2 = 0.01
 
-for n1co = 0 : 0.95 : 0.00001 // variando a proporção h2 + co da entrada  
+for n1co = 0 : 0.0000001 : 0.95// variando a proporção h2 + co da entrada  
     n1h2 = 0.95 - n1co // restrição, reajustar como limite de loop talvez
     // c6 reação 1
     ch3ohr1 = (n1co * cco * c1)
@@ -61,7 +61,8 @@ for n1co = 0 : 0.95 : 0.00001 // variando a proporção h2 + co da entrada
     // excesso h2 na reação 1
     eh2 = (n1h2 * c1) - h2r1 
     Eh2 = exh2 * h2r1
-    if (eh2 - Eh2) <= 1 & (eh2 - Eh2) >= -1
+    if (eh2 - Eh2) <= 0.1 & (eh2 - Eh2) >= -0.1
+        disp(n1h2)
         break
     end
 end
