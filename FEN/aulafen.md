@@ -225,6 +225,9 @@ $x = 2;y = 3 = (0,5 + 0,8 \cdot 2)\hat{\imath} + (  1,5 - 0,8y \cdot 3)\hat{\jma
 
 # Aula 10/11 
 ## EQ continuidade
+> ## $ \int_{S.C} \rho \vec{v }\cdot \cos{\theta} \space dA + \frac{d}{dt} \int_{V.C} \rho \space dV = 0 $ 
+## correntes no primeiro termo e no segundo o acumulo 
 
-## 1. Considerar o sistema abaixo como: incompressível, unidimensional e permanente:
+# Aula 17/11
 
+## Exercicios lei da continuidade

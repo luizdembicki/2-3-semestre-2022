@@ -36,6 +36,9 @@ Definindo que $u = (a,b);$
 
 3) Provar que qualquer reta que passa pela origem de R^2 define subespaço de R^2 usual. 
 
+4) $ <\mathbb{R}³, \mathbb{R}, +, \cdot, (0, 0, 0)> $ Usual
+ - Dar exemplo de um conjunto x de vetores que gera o espaço mas é L.D.
+ - Dar exemplo de conjunto y de vetores L.I. que não gera o espaço.
 ## Restrição = operação de subconjunto seguindo a definição do conjunto superior 
 
 
