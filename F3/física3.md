@@ -47,4 +47,9 @@ $\varepsilon_0 =  8.85 × 10^{−12} C^2/N · m^2 $
 
 # Aula 9/11 Potencial elétrico cap 24
 
-## Lista 1, 4, 12, 64, 66, 67 
+## Lista 1, 4, 12, 64, 66, 67
+
+# Aula 16/11 
+
+> ##  $ \vec{E} = \nabla V $
+> ## $\Delta K =  q \Delta V + W_{ext}$
