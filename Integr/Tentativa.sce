@@ -61,7 +61,7 @@ for n1co = 0 : 0.0000001 : 0.95// variando a proporção h2 + co da entrada
     // excesso h2 na reação 1
     eh2 = (n1h2 * c1) - h2r1 
     Eh2 = exh2 * h2r1
-    if (eh2 - Eh2) <= 0.1 & (eh2 - Eh2) >= -0.1
+    if (eh2 - Eh2) <= 0.0001 & (eh2 - Eh2) >= -0.0001
         disp(n1h2)
         break
     end
