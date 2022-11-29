@@ -231,3 +231,11 @@ $x = 2;y = 3 = (0,5 + 0,8 \cdot 2)\hat{\imath} + (  1,5 - 0,8y \cdot 3)\hat{\jma
 # Aula 17/11
 
 ## Exercicios lei da continuidade
+
+# Aula 29/11
+
+## Equação de Bernoulli
+
+## 3. água escoa de uma mangueira ligada a uma tubulação, a pressão manometrica de 400kPa, uma criança cobre com o polegar a maior parte da saída de água da mangueira, fazendo com que surja um jato fino de água. Se a mangueira for mantida para cima, qual é a altura máxima que o jato pode atingir?
+
+## Prova dia 8/12
