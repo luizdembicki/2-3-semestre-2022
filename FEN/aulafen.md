@@ -235,7 +235,19 @@ $x = 2;y = 3 = (0,5 + 0,8 \cdot 2)\hat{\imath} + (  1,5 - 0,8y \cdot 3)\hat{\jma
 # Aula 29/11
 
 ## Equação de Bernoulli
+## Cap 5-4 Çengel
 
 ## 3. água escoa de uma mangueira ligada a uma tubulação, a pressão manometrica de 400kPa, uma criança cobre com o polegar a maior parte da saída de água da mangueira, fazendo com que surja um jato fino de água. Se a mangueira for mantida para cima, qual é a altura máxima que o jato pode atingir?
 
 ## Prova dia 8/12
+
+# Aula 01/12 
+
+## Cap 5-6 Çengel, equação com presença de maquina 
+>  ## $ (z_2 - z_1) +( \frac{P_2-P_1}{\rho g} )  + ( \frac{v_2² - v_1² } { 2g } ) + \frac{h_L}{g} + \frac{ \dot{w}_s }{g} = 0 $
+#  $ \frac{h_L}{g} + \frac{ \dot{w}_s }{g} $ termos de perda de carga e trabalho de eixo respectivamente, resto da equação é a equação de Bernoulli 
+## Um tanque de água a pressão atmosferica, possui uma saída inferior com uma valvula, a dois metros abaixo do nível da água. Em um dado instante, a valvula é aberta e a água começa a escoar para atmosfera. A perda de carga estimada para o sistema é 3,1 J/Kg. Calcular a velocidade e a vazão massica na saída da valvula, sabendo que a tubulação é de 1 polegada.
+
+## Calcular a potência requerida por uma bomba em CV, que funciona com 70% de eficiencia, enviando 56,7 litros/min de acido sulfurico 98% a 20 Celcius, de um tanque que se encontra a pressão atmosferica até outro sob pressão relativa de 0,7kgf/cm², se encontra 3 metros acima do outro tanque, a tubulação é de 2 polegadas e tem 200 metros, com perda de carga estimada 21,14J/kg, desprezar a variação de energia cínetica. Densidade ac sulfurico 9836 kg/m³
+
+> ## PROVA 1 ATÉ AQUI

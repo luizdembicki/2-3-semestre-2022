@@ -53,3 +53,5 @@ $\varepsilon_0 =  8.85 × 10^{−12} C^2/N · m^2 $
 
 > ##  $ \vec{E} = \nabla V $
 > ## $\Delta K =  q \Delta V + W_{ext}$
+
+
