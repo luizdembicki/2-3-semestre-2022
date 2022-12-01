@@ -248,6 +248,6 @@ $x = 2;y = 3 = (0,5 + 0,8 \cdot 2)\hat{\imath} + (  1,5 - 0,8y \cdot 3)\hat{\jma
 #  $ \frac{h_L}{g} + \frac{ \dot{w}_s }{g} $ termos de perda de carga e trabalho de eixo respectivamente, resto da equação é a equação de Bernoulli 
 ## Um tanque de água a pressão atmosferica, possui uma saída inferior com uma valvula, a dois metros abaixo do nível da água. Em um dado instante, a valvula é aberta e a água começa a escoar para atmosfera. A perda de carga estimada para o sistema é 3,1 J/Kg. Calcular a velocidade e a vazão massica na saída da valvula, sabendo que a tubulação é de 1 polegada.
 
-## Calcular a potência requerida por uma bomba em CV, que funciona com 70% de eficiencia, enviando 56,7 litros/min de acido sulfurico 98% a 20 Celcius, de um tanque que se encontra a pressão atmosferica até outro sob pressão relativa de 0,7kgf/cm², se encontra 3 metros acima do outro tanque, a tubulação é de 2 polegadas e tem 200 metros, com perda de carga estimada 21,14J/kg, desprezar a variação de energia cínetica. Densidade ac sulfurico 9836 kg/m³
+## Calcular a potência requerida por uma bomba em CV, que funciona com 70% de eficiencia, enviando 56,7 litros/min de acido sulfurico 98% a 20°Celcius, de um tanque que se encontra a pressão atmosferica até outro sob pressão relativa de 0,7kgf/cm², se encontra 3 metros acima do outro tanque, a tubulação é de 2 polegadas e tem 200 metros, com perda de carga estimada 21,14J/kg, desprezar a variação de energia cínetica. Densidade ac sulfurico 9836 kg/m³ 
 
 > ## PROVA 1 ATÉ AQUI
