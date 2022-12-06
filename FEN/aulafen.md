@@ -251,3 +251,22 @@ $x = 2;y = 3 = (0,5 + 0,8 \cdot 2)\hat{\imath} + (  1,5 - 0,8y \cdot 3)\hat{\jma
 ## Calcular a potência requerida por uma bomba em CV, que funciona com 70% de eficiencia, enviando 56,7 litros/min de acido sulfurico 98% a 20°Celcius, de um tanque que se encontra a pressão atmosferica até outro sob pressão relativa de 0,7kgf/cm², se encontra 3 metros acima do outro tanque, a tubulação é de 2 polegadas e tem 200 metros, com perda de carga estimada 21,14J/kg, desprezar a variação de energia cínetica. Densidade ac sulfurico 9836 kg/m³ 
 
 > ## PROVA 1 ATÉ AQUI
+
+# Aula 6/12
+
+## Cavitação 
+> ## $ NHPSH_{sistema} \leq  \frac{(P_1 - P_v)}{\rho g} - \Delta y - H_L $ 
+
+1. Um fabricante fonece um NPSH da bomba de 6,1 m.c.l. Água é bombeada desde um reservatório com uma vazão de 2556 m³/h. O nível do reservatório está a 1,83m abaixo da bomba. A Patm = 101,32kPa e temperatura de 4°c. se a perda de carga na sucção é de 1,22 m.c.l., verifique que se a bomba entra em cavitação. Dados: $ \rho = 1000 kg/m³$ e Pv= 0,885kPa. Determine a altura máxima de sucção.
+ (101,32kPa − 0,885kPa)/(1000kg/m^3 × 9,8m/s^2) −1,83m −1,22m ≃ 7,2m
+6,1m = (101,32kPa −0,8856kPa)/(1000kg/m^3 × 9,8m/s^2) −x −1,22m -> x ≃ 2,93m
+
+## medidores de vazão 
+
+### Tubo de Pitot
+## $ v_1 = \sqrt{ \frac{2(P_2 - P_1)}{\rho} } $
+> Um piezômetro e um tubo de Pitot são colocados em um tubo de água horizontal para medir as pressões estática e de estagnação. Para as alturas de coluna indicadas(h1 = 3 cm ; h2 = 7cm ; h3 = 12cm), determine a velocidade no centro do tubo.
+
+
+
+
