@@ -1,4 +1,9 @@
 .git 
 .vscode/ 
 .history/
+*.aux
+*.fls
+*.fdb_latexmk
+*.log
+*.synctex.gz
 
