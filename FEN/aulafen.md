@@ -266,7 +266,9 @@ $x = 2;y = 3 = (0,5 + 0,8 \cdot 2)\hat{\imath} + (  1,5 - 0,8y \cdot 3)\hat{\jma
 ### Tubo de Pitot
 ## $ v_1 = \sqrt{ \frac{2(P_2 - P_1)}{\rho} } $
 > Um piezômetro e um tubo de Pitot são colocados em um tubo de água horizontal para medir as pressões estática e de estagnação. Para as alturas de coluna indicadas(h1 = 3 cm ; h2 = 7cm ; h3 = 12cm), determine a velocidade no centro do tubo.
+sqrt( 2((12 + 7 + 3)cm × 9,8m/s^2 − (7 + 3)cm × 9,8m/s^2) ) ≃ 1,53m/s
 
-
+### medidores de vazão por restrição 
+> ### $ v_2 = \frac{2(P_1 - P_2)}{\rho[1 - (\frac{D_2}{D_1})⁴]} $
 
 
