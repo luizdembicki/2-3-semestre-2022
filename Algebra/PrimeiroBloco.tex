@@ -1,5 +1,10 @@
 \documentclass[12pt, twoside, a4]{article} % fonte 12, frente e verso, a4
 
+\usepackage{setspace}
+\usepackage[fleqn,tbtags]{mathtools}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
 \begin{document}
 
 \title{Primeiro bloco de exércicios - Algebra Linear}
@@ -9,8 +14,28 @@
 
 \section{Provar que a associatividade da adição de vetores é teorema em $ R^2 $ usual.}
 
-Definindo que $ u = (a, b); $
+Definindo que $ u \coloneqq (a, b)$, $v  \coloneqq  (c, d)$ e $w  \coloneqq  (e, f)$, partimos de:
+$ (u + v) + w $ , realizamos as somas pela definição de adição de vetores em R²:
+\begin{center}
+\begin{doublespacing}
+    
+Aplicando a definição \\ 
+$ (u + v) + w = ((a, b) + (c, d)) + (e, f)$ \\
+Somando $u + v$ e em seguida $ (u + v) + w$ \\
+$ \to ((a + c), (b + d)) + (e, f) =  ((a + c) + e, (b + d) + f)$ \\
+Utilizando-se que nos reais a adição é associativa \\
+$ \to ((a + c) + e, (b + d) + f) = ((c + e) + a, (d + f) + b)$ \\
+Que por definição de adição de matrizes \\
+$ \to  ((c + e) + a, (d + f) + b) = ((c + e), (d + f)) + (a, b)$ \\
+$ \therefore ((c + e), (d + f)) + (a, b) = ((c, d) + (e, f)) + (a, b)$, Por adição de vetores, \\
+Que é igual ao ponto de partida \\
+$ ((c, d) + (e, f)) + (a, b) =  ((a + c), (b + d)) + (e, f)$ \\
+Usando a definição dos vetores \\
+\end{doublespacing}
+$ \therefore (u + v) + w = u + (v + w) $
 
+\end{center}
 
+\section{Escolher um axioma qualquer de espaço vetorial real e provar que ele é teorema em P² usual.}
 
 \end{document}
