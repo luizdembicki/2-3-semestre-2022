@@ -55,3 +55,8 @@ $\varepsilon_0 =  8.85 × 10^{−12} C^2/N · m^2 $
 > ## $\Delta K =  q \Delta V + W_{ext}$
 
 
+# Aula 07/12 Capacitância
+
+## Conteúdo P2 Cap 25, 26 27
+
+# Aula 12/12 Lei de Ohm

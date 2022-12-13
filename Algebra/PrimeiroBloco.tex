@@ -17,25 +17,68 @@
 \quad    Definindo que $ u \coloneqq (a, b)$, $v  \coloneqq  (c, d)$ e $w  \coloneqq  (e, f)$, partimos de:
 $ (u + v) + w $ , realizamos as somas pela definição de adição de vetores em R²:
 \begin{center}
-\begin{doublespacing}
-    
-Aplicando a definição \\ 
-$ (u + v) + w = ((a, b) + (c, d)) + (e, f)$ \\
-Somando $u + v$ e em seguida $ (u + v) + w$ \\
-$ \to ((a + c), (b + d)) + (e, f) =  ((a + c) + e, (b + d) + f)$ \\
-Utilizando-se que nos reais a adição é associativa \\
-$ \to ((a + c) + e, (b + d) + f) = ((c + e) + a, (d + f) + b)$ \\
-Que por definição de adição de matrizes \\
-$ \to  ((c + e) + a, (d + f) + b) = ((c + e), (d + f)) + (a, b)$ \\
-$ \therefore ((c + e), (d + f)) + (a, b) = ((c, d) + (e, f)) + (a, b)$, Por adição de vetores, \\
-Que é igual ao ponto de partida \\
-$ ((c, d) + (e, f)) + (a, b) =  ((a + c), (b + d)) + (e, f)$ \\
-Usando a definição dos vetores \\
-\end{doublespacing}
-$ \therefore (u + v) + w = u + (v + w) $
-
+    \begin{doublespacing}
+            
+        Aplicando a definição \\ 
+        $ (u + v) + w = ((a, b) + (c, d)) + (e, f)$ \\
+        Somando $u + v$ e em seguida $ (u + v) + w$ \\
+        $ \to ((a + c), (b + d)) + (e, f) =  ((a + c) + e, (b + d) + f)$ \\
+        Utilizando-se que nos reais a adição é associativa \\
+        $ \to ((a + c) + e, (b + d) + f) = ((c + e) + a, (d + f) + b)$ \\
+        Que por definição de adição de matrizes \\
+        $ \to  ((c + e) + a, (d + f) + b) = ((c + e), (d + f)) + (a, b)$ \\
+        $ \therefore ((c + e), (d + f)) + (a, b) = ((c, d) + (e, f)) + (a, b)$, Por adição de vetores, \\
+        Que é igual ao ponto de partida \\
+        $ ((c, d) + (e, f)) + (a, b) =  ((a + c), (b + d)) + (e, f)$ \\
+        Usando a definição dos vetores \\
+    \end{doublespacing}
+    $ \therefore (u + v) + w = u + (v + w) $
 \end{center}
 
-\section{Escolher um axioma qualquer de espaço vetorial real e provar que ele é teorema em P² usual.}
+\section{Escolher um axioma qualquer de espaço vetorial real e provar que ele é teorema em $P_2$ usual.}
+
+\begin{large}
+    \begin{bf}
+        V8: Se $u$ pertence a $V$ , então existe $v$ pertencente a $V$ tal que
+        $u + v = \overline{0}$;
+    \end{bf} 
+\end{large} \\ \\
+Seja $\mathcal{P}_2 :$
+$<P_2, \mathbb{R}, +, \cdot, \bigcirc >$ \\ \\
+Sendo $p$ e $q$ funções polinomiais reais de grau menor ou igual a 2, $+$ é então definido como $(p + q)(x) = p(x) + q(x)$. \\ \\
+$\bigcirc$ é a função $ g(x) = 0 ~ | ~ \forall x \in \mathbb{R} $. \\
+\begin{center}
+    
+
+    Definindo: \\  $p(x) = \alpha x^2 + \beta x + \delta ~ | ~ \alpha \in \mathbb{R}, \beta \in \mathbb{R}, \delta \in \mathbb{R}$ \\
+   e $q(x) = \pi x^2 + \varpi  x + \xi  ~ | ~ \pi \in \mathbb{R}, \varpi  \in \mathbb{R}, \xi  \in \mathbb{R}$
+
+    \begin{doublespacing}
+
+        Devido a definição de adição em $\mathcal{P}_2 :$ \\
+        $(p + q)(x) = p(x) + q(x)$, Substituindo $p(x)$ e $q(x)$ \\
+
+       $p(x) + q(x) = \alpha x^2 + \beta x + \delta + \pi x^2 + \varpi  x + \xi $ \\
+        Por distributividade da multiplicação de reais
+        $\to \alpha x^2 + \beta x + \delta + \pi x^2 + \varpi  x + \xi = (\alpha + \pi)x^2 + (\beta + \varpi)x + (\delta + \xi)$ \\
+        Como reais, existem inversos aditivos para cada elemento, possibilitando as seguintes expressões:
+        $ \alpha + \pi = 0 , \beta + \varpi = 0, \delta + \xi = 0$ \\
+        $\to \alpha = -\pi , \beta = - \varpi, \delta = - \xi$ \\
+        Que então para este caso particular \\
+        $\to (\alpha + \pi)x^2 + (\beta + \varpi)x + (\delta + \xi) = (0)x^2 + (0)x + (0)$ \\
+        Assim para todo x real a função retornará 0, o que equivale ao vetor nulo do espaço: 
+        $(0)x^2 + (0)x + (0) = \bigcirc$ \\ 
+        Portanto, tais que $\alpha = -\pi , \beta = - \varpi, \delta = - \xi$ \\
+        Existe  $p(x) + q(x) = \bigcirc$;
+    \end{doublespacing}
+\end{center}
+\section{Provar que qualquer reta que passa pela origem de $R^2$ define subespaço de $R^2$ usual.}
+\section{$ <\mathbb{R}^3, \mathbb{R}, +, \cdot, (0, 0, 0)> $ Usual} 
+\begin{itemize} 
+    \begin{bf}
+        \item Dar exemplo de um conjunto x de vetores que gera o espaço mas é L.D.
+        \item Dar exemplo de conjunto y de vetores L.I. que não gera o espaço.
+    \end{bf}
+\end{itemize}
 
 \end{document}
