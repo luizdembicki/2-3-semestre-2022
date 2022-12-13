@@ -271,4 +271,32 @@ sqrt( 2((12 + 7 + 3)cm × 9,8m/s^2 − (7 + 3)cm × 9,8m/s^2) ) ≃ 1,53m/s
 ### medidores de vazão por restrição 
 > ### $ v_2 = \frac{2(P_1 - P_2)}{\rho[1 - (\frac{D_2}{D_1})⁴]} $
 
+# Aula 13/12
 
+>## A vazão da água atravês de um tubo diâmetro de 10 cm deve ser determinada medindo a velocidade da água em diversos locais ao longo de uma seção transversal. Para o conjunto de medidads dados na tabela , determine a vazão volumétrica.
+
+| r(cm) | v(m/s) |
+| ----------- | ----------- |
+| 0 | 6,4 |
+| 1 | 6,1 |
+| 2 | 5,2 |
+| 3 | 4,4 |
+| 4 | 2,0 |
+| 5 | 0,0 |
+
+$ \dot V = \Sigma v_{média} \pi (v_{ext}² - v_{int}²)$
+(6,4+6,1)/2 × pi(0,01^2−0) + (6,1+5,2)/2 × pi(0,02^2−0,01^2) + (5,2+4,4)/2 × pi(0,03^2−0,02^2)+ (4,4+2)/2 × pi(0,04^2−0,03^2)+ (0+2)/2 × pi(0,05^2−0,04^2) ≃ 0,025 m³/s
+
+>## A vazão da água a 20°C($\rho$ = 998kg/m³) através de um tubo com 50cm de diâmetro é determinada com uma placa de orifício com abertura de 30cm. A vazão é dada como 250L/s. Determine a diferença de pressão indicada(como demonstrado na figura). Dado Cd=0,61
+D = 50cm, d=30cm
+
+$ \dot V = v_2 A_2 Cd$
+$ \therefore v_2 ≃ 5,8m/s$
+
+$ v_2 = \frac{2(P_1 - P_2)}{\rho[1 - (\frac{D_2}{D_1})⁴]} $
+14,4kPa
+
+>## Um medidor de venturi equipado com um medidor de pressão diferencial é usado para medir a vazão da água a 15°C ($\rho$ 999kg/m³) através de um tubo de 5cm de diâmetro. A queda de pressão é dada como 5kPa e Cd = 0,98. Determine a vazão da água e a velocidade média.
+D = 5cm d = 3 cm
+ 
+ >## A vazão de ar a 20°C($\rho = 1,204kg/m³$) através de um duto com 15cm de diâmetro é medidad com um venturi equipado com um manômetro de água. Supondo que Cd =0,98,determine a vazão em massa de ar que o venturi oode medir.
