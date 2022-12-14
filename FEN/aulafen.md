@@ -300,3 +300,4 @@ $ v_2 = \frac{2(P_1 - P_2)}{\rho[1 - (\frac{D_2}{D_1})⁴]} $
 D = 5cm d = 3 cm
  
  >## A vazão de ar a 20°C($\rho = 1,204kg/m³$) através de um duto com 15cm de diâmetro é medidad com um venturi equipado com um manômetro de água. Supondo que Cd =0,98,determine a vazão em massa de ar que o venturi oode medir.
+ D = 15cm d = 6cm hágua = 40cm 
