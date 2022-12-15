@@ -301,3 +301,33 @@ D = 5cm d = 3 cm
  
  >## A vazão de ar a 20°C($\rho = 1,204kg/m³$) através de um duto com 15cm de diâmetro é medidad com um venturi equipado com um manômetro de água. Supondo que Cd =0,98,determine a vazão em massa de ar que o venturi oode medir.
  D = 15cm d = 6cm hágua = 40cm 
+
+ # Aula 15/12 Balanço global de momento
+
+ ## Conservação de momento: as leis de Newton relacionam o movimento dos corpos e as forças e as forças que atuam sobre eles. A 2a lei de newton afirma que: "a aceleração de um corpo é proporcional a força resultante que atua sobre ele e é inversamente proporcional a sua massa"
+ ## $ \vec{F} =  m \vec{a} = \dot{m} \frac{d\vec{v}}{dt} \space \space$ (1)
+
+ ## O produto da massa pela velocidade de um corpo é chamdo de momento linear(momento) ou quantidade de movimento. Assim, pode-se expressar a 2a lei de Newton como: "taxa de variação de momento de um corpo é igual a força que atua sobre ele".
+## $ \vec{F} = \dot{m} \vec{v} \space \space $  (2)
+
+## As forças que atuam sobre um V.C. consistem em forças gravitacionais, que agem em toda parte do V.C.(gravidade, elétrica e magnética) e forças de superfície que agem sobre a S.C.(pressão, viscosas e reação nos pontos de contato).
+## $ \Sigma \vec{F}  = \Sigma \vec{F}_g + \Sigma \vec{F}_P + \Sigma \vec{F}_{\tau} +\Sigma \vec{F}_e $
+### Forças gravitacional, Forças relacionadas a pressão, Forças tensão de cisalhamento, Forças externas.
+
+
+## * Todas as forças geradas devem ser consideradas, pois são resultado das variações de velocidade das correntes de fluído. A equação da conservação de momento pode ser escrita como:
+## $ \dot{m}_{saí} - \dot{m}_{entra} + \frac{d \dot{m}}{dt} = 0$
+### $  \Sigma \vec{F}  = $ Taxa ML que sai V.C. $ - $ Taxa ML que entra V.C. $  + $ ML acumulada $ = 0$
+
+## Do balanço integral de massa e considerando a taxa de momento conforme eq.(2), temos:
+## $ \Sigma \vec{F} = \int\int\int_{S.C.} \rho (\vec{v} cos\theta)dA\vec{v} + \frac{d}{dt} \int \int \int_{V.C.} \rho dV \vec{v}  \space \space $ (4)
+
+## Substituindo (4) em (3), temos:
+
+## $\int\int\int_{S.C.} \rho (\vec{v} cos\theta)dA\vec{v} = \Sigma \vec{F}_g + \Sigma \vec{F}_P + \Sigma \vec{F}_{\tau} +\Sigma \vec{F}_e$ 
+Considerando regime permanente(sem termo de acúmulo)
+
+### $F_g + F_P + F_{tau} +F_e = 0$ 
+#### para regime permanente e fluído incompressível
+
+> ## Oléo flui através de uma redução circular(a densidade relativa do óléo = 0,80), com vazão de 0,085m³/s. Se na entrada e na saída o perfil de velocidade é uniforme, estime a força que deve ser aplicada ao redutor para mantelo no lugar. P1 = 344,74kPa P2 = 34,47kPa D1 = 0,305m D2 = 0,0635m
