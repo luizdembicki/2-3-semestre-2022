@@ -55,8 +55,10 @@ $\varepsilon_0 =  8.85 × 10^{−12} C^2/N · m^2 $
 > ## $\Delta K =  q \Delta V + W_{ext}$
 
 
-# Aula 07/12 Capacitância
+# Aula 07/12 Capacitância Cap 25
 
 ## Conteúdo P2 Cap 25, 26 27
 
-# Aula 12/12 Lei de Ohm
+# Aula 12/12 Lei de Ohm Cap 26 Corrente e resistência 
+
+# Aula 14/12 Cap 27 Circuitos
