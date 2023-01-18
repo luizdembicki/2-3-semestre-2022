@@ -389,3 +389,33 @@ Considerando regime permanente(sem termo de acúmulo)
 #### para regime permanente e fluído incompressível
 
 > ## Oléo flui através de uma redução circular(a densidade relativa do óléo = 0,80), com vazão de 0,085m³/s. Se na entrada e na saída o perfil de velocidade é uniforme, estime a força que deve ser aplicada ao redutor para mantelo no lugar. P1 = 344,74kPa P2 = 34,47kPa D1 = 0,305m D2 = 0,0635m
+
+# Aula 17/01 ~Cap 7 Çengel
+
+## 1 Obter os grupos admensionais aplicaveis a força de arrasto sobre um esfera lisa, dados os parâmetros que influenciam Fd: tamanho de esfera, velocidade, densidade e viscosidade do fluído.
+
+> $Fd = f(D, v, \rho, \mu)$
+1.  n = número de varíaveis $\to$ n = 5
+2. Grandezas fundamentais, r = n de grandezas fundamentais = 3
+3. número de grupos admensionais = n - r = 2 ($\pi_1$ e $\pi_2$) 
+4. variaveis r que vão compor o núcleo, r = 3 para compor núcleo $\to$ D, v, $\rho$. Fd e $\mu$ não compoem o núcleo
+5. Montagem dos grupos admensionais. $\pi_1 = D^a . v^b . \rho ^c . Fd ^1 \to  (L)^a . (\frac{L}{t})^b . (\frac{M}{L^3}) ^c . (\frac{M L}{t^2}) ^1$ 
+> $L\to 1a + 1b -3c + 1 = 0 \to a = -2$
+
+> $ M\to 1c +1 =0 \to c=-1$
+
+> $t\to -b - 2 = 0 \to b= -2$
+
+>  $\pi_1 = (L)^{-2} . (\frac{L}{t})^{-2} . (\frac{M}{L^3}) ^{-1} . (\frac{M L}{t^2}) ^1$
+
+> $\pi_1 = \frac{Fd}{D^2v^2\rho}$
+
+> $\pi_2 = D^a v^b \rho^c \mu^1 =  (L)^a . (\frac{L}{t})^b.(\frac{M}{L^3})^c. (\frac{M}{Lt})^1$
+
+> $\pi_2 = (L)^{-1}. (\frac{L}{t})^{-1}. (\frac{M}{Lt})^1$
+
+> $\pi_2 = \frac{\mu}{D .v .\rho}$
+
+### Relação dos grupos admensionais:
+
+$ \frac{Fd}{D^2 . v^2 . \rho} = f (\frac{\mu}{D.v.\rho}) $
