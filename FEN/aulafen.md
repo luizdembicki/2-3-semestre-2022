@@ -419,3 +419,11 @@ Considerando regime permanente(sem termo de acúmulo)
 ### Relação dos grupos admensionais:
 
 $ \frac{Fd}{D^2 . v^2 . \rho} = f (\frac{\mu}{D.v.\rho}) $
+
+# Aula 19/1 Balanço diferencial de massa Cap ~9 Çengel
+
+## Equação da continuidade em forma diferencial
+## $ (\frac{\delta(\rho v_x)}{\delta x}+\frac{\delta(\rho v_y)}{\delta y}+\frac{\delta(\rho v_z)}{\delta z}) + \frac{\delta \rho}{\delta t} = 0 $
+
+## Forma alternativa
+## $\frac{1}{\rho} \frac{D \rho}{Dt} + \vec{\nabla} \cdot \vec{V} = 0  $
