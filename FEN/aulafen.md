@@ -384,7 +384,7 @@ D = 5cm d = 3 cm
 
 Considerando regime permanente(sem termo de acúmulo)
 
-### $F_g + F_P + F_{tau} +F_e = 0$
+### $F_g + F_P + F_{\tau} +F_e = 0$
 
 #### para regime permanente e fluído incompressível
 
