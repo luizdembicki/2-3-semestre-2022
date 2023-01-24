@@ -426,4 +426,14 @@ $ \frac{Fd}{D^2 . v^2 . \rho} = f (\frac{\mu}{D.v.\rho}) $
 ## $ (\frac{\delta(\rho v_x)}{\delta x}+\frac{\delta(\rho v_y)}{\delta y}+\frac{\delta(\rho v_z)}{\delta z}) + \frac{\delta \rho}{\delta t} = 0 $
 
 ## Forma alternativa
-## $\frac{1}{\rho} \frac{D \rho}{Dt} + \vec{\nabla} \cdot \vec{V} = 0  $
+## $\frac{1}{\rho} \frac{d \rho}{dt} + \vec{\nabla} \cdot \vec{v} = 0  $
+
+# Aula 24/1 Navier-Stokes
+
+## Exercício 1
+> Determine o perfil de velocidade de um fluído newtoniano que escoa entre duas placas paralelas
+
+## Exércício 2 
+> Determine o perfil de velocidade de um fluído newtoniano que escoa em uma parede plana na vertical.
+
+
