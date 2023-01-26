@@ -436,4 +436,6 @@ $ \frac{Fd}{D^2 . v^2 . \rho} = f (\frac{\mu}{D.v.\rho}) $
 ## Exércício 2 
 > Determine o perfil de velocidade de um fluído newtoniano que escoa em uma parede plana na vertical.
 
+# Aula 26/1 Finalização de Navier Stokes e ínicio de perda de carga
+
 
