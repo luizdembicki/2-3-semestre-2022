@@ -438,4 +438,25 @@ $ \frac{Fd}{D^2 . v^2 . \rho} = f (\frac{\mu}{D.v.\rho}) $
 
 # Aula 26/1 Finalização de Navier Stokes e ínicio de perda de carga
 
+# Aula 31/1
 
+## Prova 2 balanço diferencial de massa, balanço de momento,medidores de vazão, cavitação e análise dimensional
+
+## Equação de Darcy-Weisbach
+>###  $ h_L =  \frac{f\cdot L\cdot v^2}{D\cdot 2 \cdot g}$
+> $ \Delta P = f \frac{L}{D} \rho \frac{v^2}{2} $
+### Equações para f:
+>## Regima laminar Re < 2300
+> $ f = \frac{64}{Re} $
+### ou obter por Moody
+
+## Ex 1) Qual a perda de carga e a queda de pressão em 100m de tubo liso de pvc de 32mm por onde escoa água a velocidade de 2m/s. Considerar a viscosidade $\mu =1,003 \cdot 10^{-3} Pa/s$ Densidade = 1000kg/m³
+
+## Ex 2) Calcular a perda de carga e a queda de pressão para água(mesmas propriedades do ex1) a 5m³/s escoando em um tubo de aço inoxidavel de 10km e diametro de 80cm.
+>pela vazão 9,947 183 943 m/s $\to$  Re =7,933 945 318 × 10⁶
+
+> $\epsilon /D ≃ 0,000 002 5$ $\to$ $f ≃ 0,0085 \to h_L≃ 535,6m$
+
+## Em caso de variação de pressão menor ou igual a 10% da entrada, um gás pode ser considerado incompressível. E com variação de até 40% utilizando se a média da entrada e saída.
+
+## Ex 3) gás hidrogênio a 40c e 1 bar escoa em uma tubulação de 1/4 de polégada, 12m, com vazão de 5g/min≃$9,78\cdot 10^{-4}$ m³/s, considerando tubulação de aço carbono a densidade 0,0852kg/m³, $\epsilon =0,046mm$, $\mu =0,9\cdot10^{-5}$
