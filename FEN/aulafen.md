@@ -460,3 +460,5 @@ $ \frac{Fd}{D^2 . v^2 . \rho} = f (\frac{\mu}{D.v.\rho}) $
 ## Em caso de variação de pressão menor ou igual a 10% da entrada, um gás pode ser considerado incompressível. E com variação de até 40% utilizando se a média da entrada e saída.
 
 ## Ex 3) gás hidrogênio a 40c e 1 bar escoa em uma tubulação de 1/4 de polégada, 12m, com vazão de 5g/min≃$9,78\cdot 10^{-4}$ m³/s, considerando tubulação de aço carbono a densidade 0,0852kg/m³, $\epsilon =0,046mm$, $\mu =0,9\cdot10^{-5}$
+
+# Aula 07/02 Perda de carga localizada
