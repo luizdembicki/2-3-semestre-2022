@@ -462,3 +462,11 @@ $ \frac{Fd}{D^2 . v^2 . \rho} = f (\frac{\mu}{D.v.\rho}) $
 ## Ex 3) gás hidrogênio a 40c e 1 bar escoa em uma tubulação de 1/4 de polégada, 12m, com vazão de 5g/min≃$9,78\cdot 10^{-4}$ m³/s, considerando tubulação de aço carbono a densidade 0,0852kg/m³, $\epsilon =0,046mm$, $\mu =0,9\cdot10^{-5}$
 
 # Aula 07/02 Perda de carga localizada
+
+# Aula 14/2 Força de arraste
+
+## EX 1 Determinada particúlas esfericas, sedimentam em água a 30°C a uma velocidade de 0,11 cm/s. O diametro das particúlas é de 650 $\mu m$ , qual é a força de arraste que o líquido causa sobre as esferas. Dados da água a 30°C: $\rho$ = 996kg/m³; $ \mu $ = 0,797cp 
+
+> Re = (996kg/m^3 × 0,11cm/s × 650microm)/(0,797centipoise)$\approx$ 0,893 525 721 5
+> Cd = 24/Re = 26,8 
+> Fd = 4,88 10^-9
