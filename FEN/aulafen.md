@@ -470,3 +470,9 @@ $ \frac{Fd}{D^2 . v^2 . \rho} = f (\frac{\mu}{D.v.\rho}) $
 > Re = (996kg/m^3 × 0,11cm/s × 650microm)/(0,797centipoise)$\approx$ 0,893 525 721 5
 > Cd = 24/Re = 26,8 
 > Fd = 4,88 10^-9
+
+# Aula 16/06
+
+## Ex 1 Calcular a velocidade terminal de uma esfera de vidro($ \rho = 2,69g/cm³ $), de 1mm diamêtro, caindo em água($ \rho = 998kg/m³ $). 
+
+## P3 Navier-Stokes, perda de carga, Fd 
