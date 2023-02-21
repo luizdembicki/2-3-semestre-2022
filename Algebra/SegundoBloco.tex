@@ -176,16 +176,140 @@ Para que seja produto interno:
         k & l
        \end{pmatrix} \rangle \]
 
-    \item $ \langle u + v, w \rangle =  \langle u, v \rangle + \langle v, w \rangle $
+    \item $ \langle u + v, w \rangle =  \langle u, w \rangle + \langle v, w \rangle $
     
-    fdas
+    \[ \langle \begin{pmatrix} 
+        a & b \\
+        c & d \\
+        e & f
+       \end{pmatrix} + 
+       \begin{pmatrix} 
+        g & h \\
+        i & j \\
+        k & l
+        \end{pmatrix},
+        \begin{pmatrix} 
+        m & n \\
+        o & p \\
+        q & r
+        \end{pmatrix} \rangle = 
+        \langle \begin{pmatrix} 
+        a + g & b + h \\
+        c + i & d + j \\
+        e + k & f + l 
+        \end{pmatrix} ,\begin{pmatrix} 
+        m & n \\
+        o & p \\
+        q & r
+        \end{pmatrix} \rangle \]
+    Realizando o produto interno:
+        \[\langle \begin{pmatrix} 
+        a + g & b + h \\
+        c + i & d + j \\
+        e + k & f + l 
+        \end{pmatrix} ,\begin{pmatrix} 
+        m & n \\
+        o & p \\
+        q & r
+        \end{pmatrix} \rangle 
+        = (a + g) \cdot m + (b + h) \cdot n + (c + i) \cdot o + (d + j) \cdot p + (e + k) \cdot q + (f + l) \cdot r \]
+    Por distributividade da multiplicação de reais:     
+    \[\to am + gm + bn + hn + co + io + dp + jp + eq + kq + fr + lr \]
+    Por associatividade da soma de reais:
+    \[\to ( am + bn + co + dp + eq + fr) + (gm +  hn + io + jp + kq + lr)\]
+    \[=
+    \langle \begin{pmatrix} 
+    a & b \\
+    c & d \\
+    e & f
+    \end{pmatrix} ,\begin{pmatrix} 
+    m & n \\
+    o & p \\
+    q & r
+    \end{pmatrix} \rangle +
+    \langle \begin{pmatrix} 
+    g & h \\
+    i & j \\
+    k & l
+    \end{pmatrix} ,\begin{pmatrix} 
+    m & n \\
+    o & p \\
+    q & r
+    \end{pmatrix} \rangle\]
+
     \item $\langle \alpha u, v \rangle = \alpha \langle u, v \rangle $
     
-    FADS
+    \[ \langle \alpha \cdot \begin{pmatrix} 
+        a & b \\
+        c & d \\
+        e & f
+       \end{pmatrix} ,\begin{pmatrix} 
+        g & h \\
+        i & j \\
+        k & l
+       \end{pmatrix} \rangle
+        = \langle \begin{pmatrix} 
+        \alpha \cdot a & \alpha \cdot b \\
+        \alpha \cdot c & \alpha \cdot d \\
+        \alpha \cdot e & \alpha \cdot f
+        \end{pmatrix} ,\begin{pmatrix} 
+        g & h \\
+        i & j \\
+        k & l
+        \end{pmatrix} \rangle
+        \]
+        Aplicando o produto interno:
+        \[ \langle \begin{pmatrix} 
+        \alpha \cdot a & \alpha \cdot b \\
+        \alpha \cdot c & \alpha \cdot d \\
+        \alpha \cdot e & \alpha \cdot f
+        \end{pmatrix} ,\begin{pmatrix} 
+        g & h \\
+        i & j \\
+        k & l
+        \end{pmatrix} \rangle
+        = \alpha \cdot a \cdot  g + \alpha \cdot b \cdot h +
+        \alpha \cdot c \cdot i + \alpha \cdot d \cdot j +
+        \alpha \cdot e \cdot k + \alpha \cdot f  \cdot l  \]
+        Por distributividade de reais:
+        \[ \to  \alpha \cdot (a \cdot g + b \cdot h + c \cdot i + d \cdot j + e \cdot k + f \cdot l) \]
+        \[ = \alpha \cdot \langle  \begin{pmatrix} 
+            a & b \\
+            c & d \\
+            e & f
+           \end{pmatrix} ,\begin{pmatrix} 
+            g & h \\
+            i & j \\
+            k & l
+           \end{pmatrix} \rangle \]
     \item  $\langle u, u \rangle > 0 $ se $ u $ não é o vetor nulo
+    \[\langle \alpha \cdot \begin{pmatrix} 
+        a & b \\
+        c & d \\
+        e & f
+       \end{pmatrix} ,\begin{pmatrix} 
+        a & b \\
+        c & d \\
+        e & f
+       \end{pmatrix} \rangle = a \cdot a + b \cdot b + c \cdot c + d \cdot d + e \cdot e + f \cdot f\]
+    \[ = a^2 + b^2 + c^2 + d^2 + e^2 + f^2 \]
+    Se $ a,\ b,\ c,\ d,\ e$ e $f$ são números reais não nulos, então obrigatoriamente serão positivos quando elevados ao quadrado.
 \end{enumerate}
 
-
-
-
+Definição de ortogonalidade de vetores:
+    \[ \langle u, v \rangle = 0\]
+Dois vetores ortogonais entre si no produto interno e espaço utilizado:
+\[\mathcal{A} = \begin{pmatrix} 
+    10 & 0 \\
+    20 & 0 \\
+    30 & 0
+   \end{pmatrix} ,\mathcal{B} = \begin{pmatrix} 
+    0 & 4 \\
+    0 & 8 \\
+    0 & 16
+   \end{pmatrix} \]
+Testando se são ortogonais, aplicando na definição estabelecida de produto interno:
+\[ \langle \mathcal{A}, \mathcal{B} \rangle = 10 \cdot 0 + 0 \cdot 4 + 20 \cdot 0 + 0 \cdot 8 + 30 \cdot 0 + 0 \cdot 16 \]
+Portanto:
+\[ \langle \mathcal{A}, \mathcal{B} \rangle = 0 \]
 \end{document}
