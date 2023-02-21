@@ -11,33 +11,181 @@
 
 \title{Segundo bloco de exércicios - Álgebra Linear}
 \author{Luiz Augusto Dembicki Fernandes}
-\date{07/02/2023}
+\date{19/02/2023}
 \maketitle
 
-\section{Provar que a imagem de uma transformada linear qualquer é subespaço do contradomínio}
-
 \section{Dados espaços vetoriais:}
-\begin{doublespacing}
-    \begin{large}
-         \begin{bf}
+\vspace{-0.5cm}
+\begin{Large}
+        \begin{bf}
+        $\langle V, \mathbb{R}, +_V, \cdot_V, \overrightarrow{0}_V  \rangle $ e 
+        $\langle W, \mathbb{R}, +_W, \cdot_W, \overrightarrow{0}_W  \rangle $ \\
+        Transformação de $ \mathcal{T} : V \to W \ \ | \ \ v \mapsto \mathcal{T}(v) $ \\
+        Provar que a $ \mathfrak{Im} (\mathcal{T} ) $ é subsespaço de $\langle W, \mathbb{R}, +_W, \cdot_W, \overrightarrow{0}_W  \rangle $  
+    \end{bf}
+\end{Large}
 
-            $\langle V, \mathbb{R}, +_V, \cdot_V, \overrightarrow{0}_V  \rangle $ e 
-           $\langle W, \mathbb{R}, +_W, \cdot_W, \overrightarrow{0}_W  \rangle $ \\
-           Transformação de $ T: V \to W \ \ | \ \ v \mapsto T(v) $ \\
-           Provar que a $ Im(T) $ é subsespaço de $\langle W, \mathbb{R}, +_W, \cdot_W, \overrightarrow{0}_W  \rangle $
-        
-        \end{bf}
-    \end{large}
-\end{doublespacing}
+A definição de imagem da transformada:
+\[ \mathfrak{Im} (\mathcal{T} ) = \{w \in W | \exists v(v \in V \wedge \mathcal{T} (v) = w)\} \]
 
+O espaço advindo da transformada em questão:
+\[ \langle \mathfrak{Im} (\mathcal{T}),\ \mathbb{R},\ \oplus ,\ \odot, \bigcirc \rangle \]
 
+Para que seja subsespaço de $\langle W, \mathbb{R}, +_W, \cdot_W, \overrightarrow{0}_W  \rangle $ :
+\begin{enumerate}
+    \item $\mathfrak{Im} (\mathcal{T}) \subseteq W $
+    
+    Por definição de $\mathfrak{Im} (\mathcal{T}) $:
+    \[ \mathfrak{Im} (\mathcal{T} ) = \{w \in W | \exists v(v \in V \wedge \mathcal{T} (v) = w)\} \implies \mathfrak{Im} (\mathcal{T}) \subseteq W \]
+    \item $ \bigcirc \in W $
+    
+    Partindo do teorema de que um vetor multiplicado pelo escalar nulo é igual ao vetor nulo do mesmo espaço:
+    \[ 0 \cdot_V v = \overrightarrow{0}_V  \label{eq: eq1} \tag{1} \]
+    Portanto:
+    \[  \mathcal{T}(\overrightarrow{0}_V ) = \mathcal{T}(0 \cdot_V v)\]
+    E da definição de transformação linear: 
+    \[ \to \mathcal{T}(0 \cdot_V v) = 0 \cdot_W \mathcal{T}(v)\]
+    Então utilizando de \ref{eq: eq1}, no espaço vetorial de $W$:
+    \[ 0 \cdot_W \mathcal{T}(v) =  \overrightarrow{0}_W \implies \bigcirc = \overrightarrow{0}_W \] 
+    \[ \implies \bigcirc \in W \]
+    \item $ \oplus $ é restrição de $ +_W $
+    
+    Definindo:
+    \[ w_1 \in \mathfrak{Im}(\mathcal{T}) \wedge w_2 \in \mathfrak{Im}(\mathcal{T}) \]
+    \[ v_1 \in V \wedge w_1 \in W \ | \ \mathcal{T}(v_1) = w_1 \]
+    \[ v_2 \in V \wedge w_2 \in W \ | \ \mathcal{T}(v_2) = w_2 \]
+    Então, utilizando da definição de transformação linear:
+    \[ \mathcal{T}( v_1 +_V v_2 ) = \mathcal{T}( v_1 ) +_W \mathcal{T}( v_2) = w_1 +_W w_2 \]
+    Assim  $ \oplus $ é restrição de $ +_W $
 
-\section{$\langle M_{3x2}, \mathbb{R}, +, \cdot, 
-\begin{pmatrix} 
+    \item $ \odot  $  é restrição de $ \cdot_W $
+    
+    Dado um escalar $ \alpha \in \mathbb{R} $, e os vetores explicitados no item anterior.
+    Usando a definição de transformação linear:
+    \[  \mathcal{T}(  \alpha \cdot_V v_1 ) = \alpha \cdot_W  \mathcal{T}( v_1 ) = \alpha \cdot_W w_1\]
+    Portanto $ \odot  $  é restrição de $ \cdot_W $
+    
+\end{enumerate}
+
+Com isso $ \langle \mathfrak{Im} (\mathcal{T}),\ \mathbb{R},\ \oplus ,\ \odot, \bigcirc \rangle $ é subsespaço de $\langle W, \mathbb{R}, +_W, \cdot_W, \overrightarrow{0}_W  \rangle $
+
+\section{Seja $\langle C^0 ([2,-2]),\ \mathbb{R},\ +, \cdot, \ 0  \rangle $
+ um espaço vetorial real munido de produto interno: }
+\begin{Large}
+        \begin{bf}
+        \[ \langle f, g  \rangle = \int_{-2}^{2} f(x)g(x)dx \]  
+        Demonstre o cálculo de distância entre as funções $ f(x) = 2x $ e $ g(x) = 1 $,
+        ou seja $d(2x,\ 1)$,
+        pertencentes ao espaço vetorial descrito anteriormente.  
+
+    \end{bf}
+\end{Large}
+\
+
+Definindo a função distância($ d $):
+    \[ d (u, v) = \Vert u - v \Vert = \sqrt[]{\langle (u - v), (u - v) \rangle} \]
+Utilizando as funções desejadas na definição:
+    \[ d(f, g) = \sqrt[]{\langle (f - g), (f - g) \rangle} =  \sqrt[]{\langle (2x - 1), (2x - 1) \rangle}\]
+Aplicando o produto interno:
+    \[ d(f, g) = \sqrt[]{\int_{-2}^{2} (2x - 1)(2x - 1)dx} = \sqrt[]{\int_{-2}^{2} 4x^2 -4x + 1 \ dx} \]
+Resolvendo a integral:   
+    \[ d(f, g) = \sqrt[]{ \frac{4 x^3}{3} -2x^2 + x \ \Big\vert_{-2}^{2}} \]
+Avaliando os limites de integração:
+    \[ d(f, g) = \sqrt{ \frac{76}{3} } = \frac{2}{3} \sqrt{57} \]
+
+\section{$\langle M_{3 \times 2}, \mathbb{R}, +, \cdot,
+\begin{psmallmatrix} 
  0 & 0 \\
- 0 & 0 
-\end{pmatrix} \rangle 
-$ Exibir um produto interno e dois vetores ortogonais entre si neste produto interno}
+ 0 & 0 \\
+ 0 & 0
+\end{psmallmatrix} \rangle 
+$ Exibir um produto interno e dois vetores ortogonais entre si para esse mesmo produto interno}
+
+Definindo um produto interno no espaço vetorial apresentado no enunciado:
+    \[ \langle \begin{pmatrix} 
+        a & b \\
+        c & d \\
+        e & f
+       \end{pmatrix} ,\begin{pmatrix} 
+        g & h \\
+        i & j \\
+        k & l
+       \end{pmatrix} \rangle =  a \cdot  g + b \cdot h +
+       c \cdot i + d \cdot j +
+       e \cdot k + f  \cdot l 
+        \]
+Para que seja produto interno: 
+
+\begin{enumerate}
+    \item $ \langle u, v \rangle =  \langle v, u \rangle $
+        
+    \[ \langle \begin{pmatrix} 
+        a & b \\
+        c & d \\
+        e & f
+       \end{pmatrix} ,\begin{pmatrix} 
+        g & h \\
+        i & j \\
+        k & l
+       \end{pmatrix} \rangle =  a \cdot  g + b \cdot h +
+       c \cdot i + d \cdot j +
+       e \cdot k + f  \cdot l 
+        \]
+    
+    \[ \langle \begin{pmatrix} 
+        g & h \\
+        i & j \\
+        k & l
+        \end{pmatrix},\begin{pmatrix} 
+            a & b \\
+            c & d \\
+            e & f
+       \end{pmatrix} \rangle =  g \cdot  a + h \cdot g +
+       i \cdot c + j \cdot d +
+       k \cdot e + l  \cdot f 
+        \]
+    Portanto por comutatividade da multiplicação de reais
+    \[ \langle \begin{pmatrix} 
+        g & h \\
+        i & j \\
+        k & l
+        \end{pmatrix},\begin{pmatrix} 
+            a & b \\
+            c & d \\
+            e & f
+       \end{pmatrix} \rangle =  a \cdot  g + b \cdot h +
+       c \cdot i + d \cdot j +
+       e \cdot k + f  \cdot l 
+        \]
+    E assim:
+    \[ \langle \begin{pmatrix} 
+        g & h \\
+        i & j \\
+        k & l
+        \end{pmatrix},\begin{pmatrix} 
+            a & b \\
+            c & d \\
+            e & f
+       \end{pmatrix} \rangle = \langle \begin{pmatrix} 
+        a & b \\
+        c & d \\
+        e & f
+       \end{pmatrix} ,\begin{pmatrix} 
+        g & h \\
+        i & j \\
+        k & l
+       \end{pmatrix} \rangle \]
+
+    \item $ \langle u + v, w \rangle =  \langle u, v \rangle + \langle v, w \rangle $
+    
+    fdas
+    \item $\langle \alpha u, v \rangle = \alpha \langle u, v \rangle $
+    
+    FADS
+    \item  $\langle u, u \rangle > 0 $ se $ u $ não é o vetor nulo
+\end{enumerate}
+
+
 
 
 \end{document}
